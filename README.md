@@ -9,7 +9,9 @@ SELLER_ID_RANGE_START=111111
 SELLER_ID_RANGE_END=999999
 4. Для запуска всех тестов - npm test
 5. Для запуска отдельных групп (например, позитивных) - npm run test:positive
-6. Генерация отчета - npm run test:report
+6. Запуск негативных сценариев: npm run test:negative
+7. Запуск корнер‑кейсов: npm run test:corner
+8. Генерация отчета - npm run test:report
 Ожидаемые результаты
 Все тесты проходят (зелёный статус).
 Отчёт генерируется в reports/test-report.html.
