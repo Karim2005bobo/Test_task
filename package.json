@@ -1,0 +1,15 @@
+{
+  "name": "api-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "mocha tests/",
+    "test:positive": "mocha tests/positive.test.js",
+    "test:report": "mocha tests/ --reporter mochawesome"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "chai": "^4.3.7",
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3"
+  }
+}
